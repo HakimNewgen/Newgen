@@ -4,6 +4,8 @@ import Image from "next/dist/client/image";
 
 import Bounce from 'react-reveal/Bounce';
 import CloudService from "../components/CloudService";
+import Latest from "../components/Latest";
+import Footer from "../components/Footer";
 
  function cloud_services() {
      return (
@@ -109,6 +111,9 @@ import CloudService from "../components/CloudService";
                 </div>
 
                 <CloudService />
+                  
+                  <Latest />
+                  <Footer />
          </div>
      )
  }
