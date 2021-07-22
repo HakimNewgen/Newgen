@@ -1,95 +1,117 @@
+import Banner from "../components/Banner";
 
-import styles from "../styles/CloudService.module.css";
-import {
-    CheckIcon,
-    ChevronRightIcon
-
-} from '@heroicons/react/outline'
-import Footer from "./Footer";
+import Image from "next/dist/client/image";
 
 import Bounce from 'react-reveal/Bounce';
-import Latest from "./Latest";
+import CloudService from "../components/CloudService";
 
-import Image  from "next/image";
+ function cloud_services() {
+     return (
+         <div>
+             <Banner source="https://i.ibb.co/5rYCQ9M/Cloud-banner.png" font="text-3xl" color="text-white" text="Solutions numériques avec une approche de développement centrée sur l'utilisateur" size="cover"  />
 
-function CloudService() {
-    return (
-        <div>
-            <div class={styles.support_scrollsnap}></div>
+            { /*<Banner source="https://i.ibb.co/SsC4v1B/cloud-banner1.png" navbar="blue-900" text="Solutions numériques avec une approche de développement centrée sur l'utilisateur" font={"text-3xl"} size="cover" size="cover" color={"text-blue-900"} />*/}
 
-            <div class={styles.scroll_container}>
-                <div class={styles.scroll_area}>
-                    <div className="flex justify-between w-10/12 mx-auto">
-                        <div className="">
+             <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >On vous aide à avoir des outils à la hauteur de vos ambitions</h3>
 
-                            <h1 className="bg-white p-5 text-black  mix-blend-screen text-4xl mb-32 font-extrabold rounded-lg " >permettre à vos équipes de</h1>
-                            
+             <div className="flex  w-10/12 mx-auto  justify-around   mb-72 ">
+                 <div className="w-72 text-center  ">
+                   <Bounce duration={2000}  >
+                         <Image className=" w-24  ml-24 mb-24  " height={100}  width={100} src="https://i.ibb.co/N67nxs5/Capture.png" />
+                   </Bounce>
+                   
+                     <h4 className="font-bold text-blue-900 text-xl mb-6 " >Accompagnement 
+                         De Votre Migration vers Cloud</h4>
+                     
+                 </div>
 
-                            <Bounce duration={3000}>
-                                <h1 className="text-white flex text-3xl mb-20 font-bold " > <CheckIcon className="w-10  mr-3 text-white" />Travailler et collaborer
-                                    à distance  </h1>
-                            </Bounce>
+                 <div className="w-72 text-center ">
 
-                            <Bounce duration={3000} delay={700} >
-                                <h1 className="text-white flex text-3xl mb-20 font-bold " > <CheckIcon className="w-10  mr-3 text-white" />Partager des fichiers ou écrans </h1>
-                            </Bounce>
-                            
+                     <Bounce duration={2000} delay={500}  >
+                         <Image src="https://i.ibb.co/4gqK8Yv/Capture.png" className=" w-24  ml-24 mb-12  " height={100}  width={100} />
+
+                     </Bounce>
+
+                     <h4 className="font-bold text-blue-900 text-xl mb-6" >Profitez , où que vous soyez des outils cloud grace à Newgen</h4>
+                    
+
+                 </div>
+
+                 <div className="w-72 text-center ">
+
+                     <Bounce duration={2000} delay={1000}  >
+                         <Image src="https://i.ibb.co/c8mrY3L/Capture.png" className=" w-24  ml-24 mb-14  " height={100} width={100} alt="" />
+
+                     </Bounce>
+
+                    
+                     <h4 className="font-bold text-blue-900 text-xl mb-6" >Support technique et conseils
+                         24H/7</h4>
+                    
+
+                 </div>
+             </div>
+
+
+             <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12  " >Accélérez votre Migration Cloud avec nos
+                 Partenaires clé</h3>
+
+
+                <div className="grid place-items-center w-8/12 mx-auto">
+                    <div className="flex">
+                       <div className="">
+                         <h3 className="text-black font-semibold text-xl ">Communiquez, créez et collaborez en équipe</h3>
+                         <p className="text-gray-500 text-md w-6/12 mt-14">Newgen  offre un éventail complet de services associés à votre futur environnement Google Workspace: Migration, déploiement, gestion du changement, formation et support technique, </p>
+
+                         <div className="flex mt-16 z-40">
+                             <button className="bg-blue-900 border-2 px-4  py-2 text-white  mr-5 rounded-xl hover:bg-transparent hover:text-blue-900 hover:border-blue-900 ">Commencer</button>
+                             <button className="border-2 border-blue-900 px-4  py-2 text-blue-900 font-bold  rounded-xl   ">Voir Plus</button>
+                         </div>
+
+                       </div>
+                       <div className="">
+                       <Bounce right duration={2000} >
+                             <Image src="https://i.ibb.co/d7hjhZz/Capture.png" width={300} height={50} />
+                             <br />
+                             <Image src="https://i.ibb.co/VY3HFYw/Capture.png" width={300} height={500} />
+                       </Bounce>
+                    
+
                           
-                            
-                            <Bounce duration={3000} delay={1000} >
-
-                                <h1 className="text-white flex text-3xl font-bold " > <CheckIcon className="w-10  mr-3 text-white" />Collaborer à plusieurs sur un même <br /> document</h1>
-
-                            </Bounce>
-
-
-
-                            
-                            
-                        </div>
-
-                        <Image className="rounded-xl  ml-60 " src="https://i.ibb.co/G7q93Hs/Capture.png" height={400} width={500} alt="" />
+                       </div>
                     </div>
+
+                 <hr className=" w-11/12 mx-auto text-gray-600 mb-44 mt-16 " />
+
+                 <div className="flex">
+                     <div className="">
+                         <h3 className="text-black font-semibold text-xl ">La migration vers AWS pourrait révolutionner votre entreprise</h3>
+                         <p className="text-gray-500 text-md w-6/12 mt-14">Newgen vous aident à poser des bases solides pour une migration réussie vers le cloud AWS.  Nous passons en revue  vos processus et votre technologie et mettons en évidence les changements que vous devez apporter pour être prêt pour une migration vers le cloud. </p>
+
+                         <div className="flex mt-16 z-40">
+                             <button className="bg-blue-900 border-2 px-4  py-2 text-white  mr-5 rounded-xl hover:bg-transparent hover:text-blue-900 hover:border-blue-900 ">Commencer</button>
+                             <button className="border-2 border-blue-900 px-4  py-2 text-blue-900 font-bold  rounded-xl   ">Voir Plus</button>
+                         </div>
+
+                     </div>
+                     <div className="">
+
+                     <Bounce right duration={2000} >
+                             <Image src="https://i.ibb.co/pzTtqGH/t-l-charger-4.png" width={800} height={500} />
+
+
+                     </Bounce>
+                       
+
+                     </div>
+                 </div>
+                 <hr className=" w-11/12 mx-auto text-gray-600 mb-44 mt-16 " />
                 </div>
-                <div class={styles.scroll_area}>
-                    <div className="flex justify-between w-10/12 mx-auto">
-                        <div className="">
 
-                            <h1 className="text-blue-900 p-5 w-10/12 ml-24 mt-20 text-4xl mb-24 font-extrabold rounded-lg " >Pour avoir accès à distance à votre entreprise en toute sécurité</h1>
-
-                           
-
-
-
-
-                        </div>
-
-                        <Image className="rounded-xl  ml-60 h h-3/4 " src="https://i.ibb.co/TkCC834/Capture.png" width={600} height={900} alt="" />
-                    </div>
-                </div>
-                <div class={styles.scroll_area}>
-                    <div className="flex justify-between w-11/12 mx-auto">
-                        <div className="">
-                            
-                            <h1 className=" bg-white p-5 text-black ml-24   mix-blend-screen text-4xl font-extrabold rounded-lg " >faciliter l’accès à vos applications <br /> métiers</h1>
-
-
-
-                        </div>
-
-                        <Image className="rounded-xl  ml-60 " src="https://i.ibb.co/zP25k5n/visuel.png" height={500} width={500} alt="" />
-                    </div>
-                </div>
-            </div>
-
-             <Latest />
-            <Footer />
-
-            
-        </div>
-    )
-}
-
-export
-
-default CloudService
+                <CloudService />
+         </div>
+     )
+ }
+ 
+ export default cloud_services
+ 
