@@ -10,14 +10,16 @@ import Footer from "./Footer";
 import Bounce from 'react-reveal/Bounce';
 import Latest from "./Latest";
 
+import Image  from "next/image";
+
 function CloudService() {
     return (
         <div>
-            <div class={styles.support_scrollsnap}></div>
+            <div className={styles.support_scrollsnap}></div>
 
-            <div class={styles.scroll_container}>
-                <div class={styles.scroll_area}>
-                    <div className="flex justify-between">
+            <div className={styles.scroll_container}>
+                <div className={styles.scroll_area}>
+                    <div className="flex justify-between w-10/12 mx-auto">
                         <div className="">
 
                             <h1 className="bg-white p-5 text-black  mix-blend-screen text-4xl mb-32 font-extrabold rounded-lg " >permettre à vos équipes de</h1>
@@ -46,14 +48,14 @@ function CloudService() {
                             
                         </div>
 
-                        <img className="rounded-xl  ml-60 " src="https://i.ibb.co/G7q93Hs/Capture.png" height={900} width={500} alt="" />
+                        <Image className="rounded-xl  ml-60 " src="https://i.ibb.co/G7q93Hs/Capture.png" height={400} width={500} alt="" />
                     </div>
                 </div>
-                <div class={styles.scroll_area}>
-                    <div className="flex justify-between">
+                <div className={styles.scroll_area}>
+                    <div className="flex justify-between w-10/12 mx-auto">
                         <div className="">
 
-                            <h1 className="text-blue-900 p-5 w-auto ml-24 mt-20 text-4xl mb-32 font-extrabold rounded-lg " >Pour avoir accès à distance à votre entreprise en toute sécurité</h1>
+                            <h1 className="text-blue-900 p-5 w-10/12 ml-24 mt-20 text-4xl mb-24 font-extrabold rounded-lg " >Pour avoir accès à distance à votre entreprise en toute sécurité</h1>
 
                            
 
@@ -62,11 +64,11 @@ function CloudService() {
 
                         </div>
 
-                        <img className="rounded-xl  ml-60 h h-3/4 " src="https://i.ibb.co/TkCC834/Capture.png" width={600} alt="" />
+                        <Image className="rounded-xl  ml-60 h h-3/4 " src="https://i.ibb.co/TkCC834/Capture.png" width={600} height={900} alt="" />
                     </div>
                 </div>
-                <div class={styles.scroll_area}>
-                    <div className="flex justify-between">
+                <div className={styles.scroll_area}>
+                    <div className="flex justify-between w-11/12 mx-auto">
                         <div className="">
                             
                             <h1 className=" bg-white p-5 text-black ml-24   mix-blend-screen text-4xl font-extrabold rounded-lg " >faciliter l’accès à vos applications <br /> métiers</h1>
@@ -75,7 +77,7 @@ function CloudService() {
 
                         </div>
 
-                        <img className="rounded-xl  ml-60 " src="https://www.mycloud.ma/img/Accueill/06/visuel.png" height={900} width={500} alt="" />
+                        <Image className="rounded-xl  ml-60 " src="https://i.ibb.co/zP25k5n/visuel.png" height={500} width={500} alt="" />
                     </div>
                 </div>
             </div>
