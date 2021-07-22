@@ -10,6 +10,8 @@ import Galerie from "../components/Galerie";
 import Technolgie from "../components/Technolgie";
 
 import Image  from "next/image";
+import Latest from "../components/Latest";
+import Footer from "../components/Footer";
 
 function apps_platforms() {
     return (
@@ -186,6 +188,9 @@ function apps_platforms() {
             <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >Nos Technologies de développement </h3>
             
             <Technolgie />
+                
+                <Latest />
+                <Footer />
             
             
         </div>
