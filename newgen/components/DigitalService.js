@@ -1,4 +1,5 @@
 import Bounce from 'react-reveal/Bounce';
+import Image  from 'next/image';
 function DigitalService({icon  , title , text}) {
     return (
         <div>
@@ -7,7 +8,7 @@ function DigitalService({icon  , title , text}) {
 
                 <div className="flex w-10/12">
                   <Bounce bottom duration={2000}>
-                        <img src={`${icon}`} className="w-16 h-16" />
+                        <Image src={`${icon}`} className="w-16 h-16"  height={300} width={300} />
                   </Bounce>
                    
                     <div className="">
@@ -23,3 +24,4 @@ function DigitalService({icon  , title , text}) {
 }
 
 export default DigitalService
+
