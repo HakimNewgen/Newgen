@@ -72,7 +72,7 @@ function apps_platforms() {
             </Fade>
 
             <Fade right duration={2000}>
-                <UIUX Tcolor="from-indigo-400" icon="" text="" Bcolor="to-green-400" side="right-96" ring="ring-indigo-200" title="Développement de lexpérience utilisateur (UX)" text="Nos services de développement dapplications UX sont conçus pour améliorer lexpérience globale des utilisateurs et garantir une satisfaction totale des clients lorsquils interagissent avec votre application." />
+                <UIUX Tcolor="from-indigo-400" icon="" Bcolor="to-green-400" side="right-96" ring="ring-indigo-200" title="Développement de lexpérience utilisateur (UX)" text="Nos services de développement dapplications UX sont conçus pour améliorer lexpérience globale des utilisateurs et garantir une satisfaction totale des clients lorsquils interagissent avec votre application." />
             </Fade>
 
             <h3 className="font-bold text-blue-900 text-4xl  mt-52 mb-24 mx-auto w-9/12 " >Outils et technologies UI/UX que nous utilisons</h3>
