@@ -3,6 +3,8 @@ import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import {useState} from 'react'
 
+import Image from 'next/image'
+
 
 function Technolgie() {
     const [traceWeb, setTraceweb] = useState("border-r-2")
@@ -31,11 +33,11 @@ function Technolgie() {
 
                 <div className="grid place-items-center mx-auto">
                     <TabPanel>
-                        <img src="https://i.ibb.co/rGfH0VD/preview.png" alt="" />
+                        <Image src="https://i.ibb.co/rGfH0VD/preview.png" height={500} width={1200} alt="" />
                     </TabPanel>
 
-                    <TabPanel className="relative bottom-14">
-                        <img src="https://i.ibb.co/Bqb9Htg/Mobile-Techno.png" alt="" />
+                    <TabPanel className="relative top-14">
+                        <Image src="https://i.ibb.co/Bqb9Htg/Mobile-Techno.png" height={500} width={1200} alt="" />
                     </TabPanel>
 
                    

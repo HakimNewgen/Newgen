@@ -1,12 +1,14 @@
 import Banner from "../components/Banner";
 import Image from "next/image"
 import DigitalService from "../components/DigitalService";
+import Latest from "../components/Latest";
 
 function digital_marketing() {
     return (
         <div  >
             <Banner source="https://i.ibb.co/hY0zJyR/Png-Item-5400435.png" navbar="blue-900" text="Solutions numériques avec une approche de développement centrée sur l'utilisateur" font={"text-3xl"} size="cover" size="cover" color={"text-blue-900"}/>
-            <h3 className="font-bold text-blue-900 text-3xl text-center  mb-44 underline" >Comment pouvons-nous vous aider ?</h3>
+
+            <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >Comment pouvons-nous vous aider ?</h3>
 
             <div className=" flex w-9/12 mx-auto justify-between ">
                 <DigitalService icon="https://i.ibb.co/4PWG3bk/Capture.png" title="Paid Media" text="Découvrez la force de la publicité sociale sur vos produits et vos services à votre audience défini afin d'accroître la notoriété de la marque et de générer des revenus." />
@@ -33,6 +35,8 @@ une base de fans dédiés à travers un Marketing organique" />
                 
 
             </div>
+
+            <Latest />
         </div>
     )
 }

@@ -16,7 +16,7 @@ function apps_platforms() {
 
 
 
-            <h3 className="font-bold text-blue-900 text-3xl text-center mt-14 mb-20 underline" >Notre Approche D'Innovation</h3>
+            <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >Notre Approche D'Innovation</h3>
 
             <div className=" w-10/12 mx-auto cursor-pointer ">
                 <ul class={styles.process}>
@@ -57,23 +57,23 @@ function apps_platforms() {
                     </li>
                 </ul>
             </div>
-            <h3 className="font-bold text-blue-900 text-3xl text-center  mt-20 mb-20 underline" >Design UI/UX</h3>
+            <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >Design UI/UX</h3>
 
 
 
             <Fade right duration={2000}>
-                <UIUX Tcolor="from-yellow-400" Bcolor="to-pink-400" side="right-96" ring="ring-yellow-200" />
+                <UIUX Tcolor="from-yellow-400" icon="https://i.ibb.co/3hxYHsb/Capture.png" title="Développement de l'expérience utilisateur (UX)" text="Nos services de développement d'applications UX sont conçus pour améliorer l'expérience globale des utilisateurs et garantir une satisfaction totale des clients lorsqu'ils interagissent avec votre application." Bcolor="to-pink-400" side="right-96" ring="ring-yellow-200" />
             </Fade>
 
             <Fade left duration={2000}>
-                <UIUX Tcolor="from-blue-400" Bcolor="to-purple-500" side="left-96" ring="ring-blue-200" />
+                <UIUX Tcolor="from-blue-400" icon="https://i.ibb.co/YN9rJXq/Capture.png" Bcolor="to-purple-500" side="left-96" ring="ring-blue-200" title="Développement de l'expérience utilisateur (UX)" text="Nos services de développement d'applications UX sont conçus pour améliorer l'expérience globale des utilisateurs et garantir une satisfaction totale des clients lorsqu'ils interagissent avec votre application." />
             </Fade>
 
             <Fade right duration={2000}>
-                <UIUX Tcolor="from-indigo-400" Bcolor="to-green-400" side="right-96" ring="ring-indigo-200" />
+                <UIUX Tcolor="from-indigo-400" icon="" text="" Bcolor="to-green-400" side="right-96" ring="ring-indigo-200" title="Développement de l'expérience utilisateur (UX)" text="Nos services de développement d'applications UX sont conçus pour améliorer l'expérience globale des utilisateurs et garantir une satisfaction totale des clients lorsqu'ils interagissent avec votre application." />
             </Fade>
 
-            <h3 className="font-bold text-blue-900 text-3xl text-center  mt-40 mb-44 underline" >Outils et technologies UI/UX que nous utilisons</h3>
+            <h3 className="font-bold text-blue-900 text-4xl  mt-52 mb-24 mx-auto w-9/12 " >Outils et technologies UI/UX que nous utilisons</h3>
 
             <div className="grid place-items-center  mx-auto  w-screen p-10 bg-gradient-to-t from-blue-900 ">
 
@@ -95,7 +95,7 @@ function apps_platforms() {
             </div>
 
 
-            <h3 className="font-bold text-blue-900 text-3xl text-center  mt-40 mb-44 underline" >Developpement Mobile</h3>
+            <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >Developpement Mobile</h3>
 
             <div className="flex justify-around mb-28 text-xl">
                 <p className="w-4/12 mt-20 text-gray-400 " >
@@ -108,7 +108,7 @@ function apps_platforms() {
 
 
             </div>
-            <h3 className="font-bold text-blue-900 text-3xl text-center  mt-40 mb-44 underline" >Nos services de développement d'applications mobiles</h3>
+            <h3 className="font-bold text-blue-900 text-4xl  mt-64 mb-52 mx-auto w-9/12 " >Nos services de développement d'applications mobiles</h3>
              
             <div className=" flex w-9/12 mx-auto justify-between ">
                 <DigitalService icon="https://i.ibb.co/gZ5t9R9/Capture.png" title="Custom Mobile App Development" text="Nous avons  d'expérience dans la création d'applications mobiles personnalisées et riches en fonctionnalités. Notre approche de développement out-of-the-box fait de nous la meilleure société de développement d'applications mobiles." />
@@ -136,10 +136,10 @@ function apps_platforms() {
 
 
 
-            <h3 className="font-bold text-blue-900 text-3xl text-center  mt-40 mb-44 underline" >Web Developpement</h3>
+            <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >Web Developpement</h3>
           
            
-            <div className="flex justify-around mb-28 ">
+            <div className="flex justify-around mt-64 ">
                 <p className="w-4/12 mt-20 text-gray-400 text-xl" >
                     Votre site web est votre vitrine, alors représentez votre entreprise avec un site web qui montre la vraie qualité. Nos développeurs web sont prêts à travailler avec votre entreprise et à créer des plateformes interactives avec lesquelles les visiteurs de votre site pourront s'engager et convertir.
 
@@ -152,7 +152,7 @@ function apps_platforms() {
             </div>
            
 
-            <h3 className="font-bold text-blue-900 text-3xl text-center  mt-40 mb-44 underline" >Nos services de développement Web</h3>
+            <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-52 mx-auto w-9/12 " >Nos services de développement Web</h3>
 
             <div className=" flex w-9/12 mx-auto justify-between ">
                 <DigitalService icon="https://i.ibb.co/pPgjCWP/Capture.png" title="Custom Web Applications Development" text="Obtenez des services de développement d'applications Web sécurisés, évolutifs, performants et dotés de nombreuses fonctionnalités, adaptés à différents secteurs verticaux, à des prix conformes à ceux du marché." />
@@ -181,7 +181,7 @@ function apps_platforms() {
             <Galerie/>
 
 
-            <h3 className="font-bold text-blue-900 text-3xl text-center  mt-40 mb-44 underline" >Nos Technologies de développement </h3>
+            <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >Nos Technologies de développement </h3>
             
             <Technolgie />
             

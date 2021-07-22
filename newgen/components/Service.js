@@ -11,10 +11,12 @@ import Fade from 'react-reveal/Fade';
 
 function Service() {
     return (
-        <div>
-            <h3 className="font-bold text-blue-900 text-3xl text-center  mb-44 underline" >Nos Services</h3>
+        <div >
 
+        
+            <h3 className="font-bold text-blue-900 text-4xl  mt-7 mb-20 mx-auto w-9/12 " >Nos Services</h3>
 
+              
             <div className=" flex w-8/12 mx-auto justify-between mb-24 ">
 
             <Fade right duration={2500} delay={200}>
@@ -115,7 +117,7 @@ function Service() {
 
 
 
-            <div className="  h-96 mt-32 grid place-items-center " style={{ background: 'url("https://i.ibb.co/6FCvYnx/bg-23.jpg") ', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
+            <div className=" h-96 mt-32 grid place-items-center " style={{ background: 'url("https://i.ibb.co/6FCvYnx/bg-23.jpg") ', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
               <div className="flex justify-items-center ">
                     <h3 className="font-bold text-2xl text-right text-white      ">Great things in business are <br />
                         never done by one person. <br />

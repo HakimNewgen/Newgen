@@ -9,7 +9,7 @@ import { FaHandshake } from 'react-icons/fa';
 function Values() {
     return (
         <div>
-            <h3 className="font-bold text-blue-900 text-3xl text-center  mb-20 underline" >Nos Valeurs</h3>
+            <h3 className="font-bold text-blue-900 text-4xl  mt-7 mb-20 mx-auto w-9/12  " >Nos Valeurs</h3>
 
             <div className="flex  w-auto  justify-around   mb-72 ">
                 <div className="w-72 text-center  ">

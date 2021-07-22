@@ -36,7 +36,7 @@ const Slider = () => {
                     
                 <SwiperSlide className=" w-11/12 ">
                     <div className=" ml-28">
-                        <h3 className="font-bold text-blue-900 text-2xl  mt-7 mb-20 underline" >Apps & Platforms</h3>
+                        <h3 className="font-bold text-blue-900 text-2xl  mt-7 mb-20 " >Apps & Platforms</h3>
 
                         <div className="flex">
                             <p className="flex relative top-12">  Nous développons et déployons des applications métiers personnalisées <br /> pour permettre à nos clients de piloter leurs activités
@@ -56,7 +56,7 @@ const Slider = () => {
 
                 <SwiperSlide className=" w-11/12 ">
                     <div className=" ml-28">
-                        <h3 className="font-bold text-blue-900 text-2xl  mt-7 mb-20 underline" >Cloud services</h3>
+                        <h3 className="font-bold text-blue-900 text-2xl  mt-7 mb-20 " >Cloud services</h3>
 
                         <div className="flex">
                             <p className="flex relative top-12"> Nous construisons- en collaboration avec le  service IT de <br /> nos clients  la stratégie de  migration vers le cloud.  ainsi que <br />les réductions de coûts associés
@@ -77,7 +77,7 @@ const Slider = () => {
                 </SwiperSlide>
                 <SwiperSlide className=" w-11/12 ">
                     <div className=" ml-28">
-                        <h3 className="font-bold text-blue-900 text-2xl  mt-7 mb-20 underline" >Digital marketing</h3>
+                        <h3 className="font-bold text-blue-900 text-2xl  mt-7 mb-20 " >Digital marketing</h3>
 
                         <div className="flex">
                             <p className="flex relative top-12">  Nous construisons des stratégies marketing uniques  en actionnant <br /> les leviers technologiques  afin d’augmenter la notoriété digitale<br /> de nos clients
@@ -97,7 +97,7 @@ const Slider = () => {
 
                 <SwiperSlide className=" w-11/12 ">
                     <div className=" ml-28">
-                        <h3 className="font-bold text-blue-900 text-2xl  mt-7 mb-20 underline" >Digital marketing</h3>
+                        <h3 className="font-bold text-blue-900 text-2xl  mt-7 mb-20 " >Digital marketing</h3>
 
                         <div className="flex justify-around">
                             <p className="flex relative top-12">  Nous construisons des stratégies marketing uniques  en actionnant <br /> les leviers technologiques  afin d’augmenter la notoriété digitale<br /> de nos clients

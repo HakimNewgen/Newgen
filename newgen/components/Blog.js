@@ -8,9 +8,10 @@ import {
 } from '@heroicons/react/outline'
 function Blog() {
     return (
-        <div className="w-10/12 mx-auto mt-44 grid  place-items-center ">
+        <div className="w-10/12 mx-auto mt-44  ">
 
-            <h3 className="font-bold text-blue-900 text-3xl text-center mt-7 mb-20 underline " >Nos Blogs</h3>
+            <h3 className="font-bold text-blue-900 text-4xl  mt-7 mb-20 mx-auto w-9/12  " >Nos Blogs</h3>
+            
 
             <div className="flex">
               <Link href="/blogs">

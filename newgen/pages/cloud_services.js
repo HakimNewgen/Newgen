@@ -12,7 +12,7 @@ import CloudService from "../components/CloudService";
 
             { /*<Banner source="https://i.ibb.co/SsC4v1B/cloud-banner1.png" navbar="blue-900" text="Solutions numériques avec une approche de développement centrée sur l'utilisateur" font={"text-3xl"} size="cover" size="cover" color={"text-blue-900"} />*/}
 
-             <h3 className="font-bold text-blue-900 text-3xl text-center mt-20  mb-20 underline" >On vous aide à avoir des outils à la hauteur de vos ambitions</h3>
+             <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >On vous aide à avoir des outils à la hauteur de vos ambitions</h3>
 
              <div className="flex  w-10/12 mx-auto  justify-around   mb-72 ">
                  <div className="w-72 text-center  ">
@@ -53,7 +53,7 @@ import CloudService from "../components/CloudService";
              </div>
 
 
-             <h3 className="font-bold text-blue-900 text-3xl text-center mt-24 mb-24 underline " >Accélérez votre Migration Cloud avec nos
+             <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12  " >Accélérez votre Migration Cloud avec nos
                  Partenaires clé</h3>
 
 

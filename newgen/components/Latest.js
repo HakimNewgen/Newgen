@@ -4,7 +4,7 @@ import Map from "./Map";
 function Latest() {
     return (
         <div>
-            <h3 className="font-bold text-blue-900 text-3xl text-center mt-24 mb-20 underline" >Latest of Newgen Intelligence</h3>
+            <h3 className="font-bold text-blue-900 text-4xl mb-20 mx-auto w-9/12 mt-32" >Latest of Newgen Intelligence</h3>
 
             <div className="flex w-9/12 mx-auto  justify-between">
                 <div className="flex cursor-pointer">

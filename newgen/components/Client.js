@@ -20,9 +20,9 @@ import Image from 'next/image'
 
 function Client() {
     return (
-        <div className=' w-10/12 mx-auto text-center'>
+        <div className=' w-10/12 mx-auto '>
 
-            <h3 className="font-bold text-blue-900 text-3xl text-center mt-7  underline" >Temoignage</h3>
+            <h3 className="font-bold text-blue-900 text-4xl  mt-14 mb-8 mx-auto w-9/12" >Temoignage</h3>
 
 
             <Swiper
@@ -36,17 +36,19 @@ function Client() {
             >
 
 
-                <SwiperSlide className=" grid place-items-center w-11/12 ">
+                <SwiperSlide className="  w-11/12 ">
                     <div className="ml-28">
                        
 
                         <div className="grid place-items-center mr-10">
                             <p className="flex relative  top-56 right-10 rounded-lg  text-lg  bg-gray-200 text-blue-900 px-10 py-10">  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br /> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br /> dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
                             </p>
+                             <div className=" w-44 mx-auto    mt-64 ">
+                                <Image src="https://i.ibb.co/88y0rM7/team-1.jpg" className="rounded-full  " height={100} width={100} alt="" />
 
+                             </div>
 
-                            <img src="https://lagazette.aumaroc.org/wp-content/uploads/2016/06/team-1.jpg" className="rounded-full w-24 relative  top-60 mr-16 " alt="" />
-
+                          
                           
                         </div>
                         
@@ -58,9 +60,9 @@ function Client() {
                   
                 </SwiperSlide>
 
-                <SwiperSlide className=" w-11/12 ">
+                <SwiperSlide className=" w-11/12  opacity-0">
                     <div className=" ml-28">
-                        <h3 className="font-bold text-blue-900 text-2xl  mt-7 mb-20 underline" >Cloud services</h3>
+                        <h3 className="font-bold text-blue-900 text-2xl  mt-7 mb-20 " >Cloud services</h3>
 
                         <div className="flex">
                             <p className="flex relative top-12"> Nous construisons- en collaboration avec le  service IT de <br /> nos clients  la stratégie de  migration vers le cloud.  ainsi que <br />les réductions de coûts associés
