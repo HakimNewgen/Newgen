@@ -17,10 +17,10 @@ import CloudService from "../components/CloudService";
              <div className="flex  w-10/12 mx-auto  justify-around   mb-72 ">
                  <div className="w-72 text-center  ">
                    <Bounce duration={2000}  >
-                         <img className=" w-24  ml-24 mb-14  " src="https://i.ibb.co/N67nxs5/Capture.png" />
+                         <Image className=" w-24  ml-24 mb-24  " height={100}  width={100} src="https://i.ibb.co/N67nxs5/Capture.png" />
                    </Bounce>
                    
-                     <h4 className="font-bold text-blue-900 text-xl mb-6" >Accompagnement 
+                     <h4 className="font-bold text-blue-900 text-xl mb-6 " >Accompagnement 
                          De Votre Migration vers Cloud</h4>
                      
                  </div>
@@ -28,7 +28,7 @@ import CloudService from "../components/CloudService";
                  <div className="w-72 text-center ">
 
                      <Bounce duration={2000} delay={500}  >
-                         <img src="https://i.ibb.co/4gqK8Yv/Capture.png" className="w-24 mb-14 ml-24" />
+                         <Image src="https://i.ibb.co/4gqK8Yv/Capture.png" className=" w-24  ml-24 mb-12  " height={100}  width={100} />
 
                      </Bounce>
 
@@ -40,7 +40,7 @@ import CloudService from "../components/CloudService";
                  <div className="w-72 text-center ">
 
                      <Bounce duration={2000} delay={1000}  >
-                         <img src="https://i.ibb.co/c8mrY3L/Capture.png" className="w-24  mb-14 ml-24" alt="" />
+                         <Image src="https://i.ibb.co/c8mrY3L/Capture.png" className=" w-24  ml-24 mb-14  " height={100} width={100} alt="" />
 
                      </Bounce>
 
