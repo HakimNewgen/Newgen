@@ -19,41 +19,41 @@ function apps_platforms() {
             <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >Notre Approche D'Innovation</h3>
 
             <div className=" w-10/12 mx-auto cursor-pointer ">
-                <ul class={styles.process}>
-                    <li class={styles.process__item}>
+                <ul className={styles.process}>
+                    <li className={styles.process__item}>
                       <Fade bottom duration={1000} >
-                            <span class={styles.process__number}>1</span>
+                            <span className={styles.process__number}>1</span>
                       </Fade>
                       
-                        <span class={styles.process__title}>Search</span>
-                        <span class={styles.process__subtitle}>We analyse your problem and develop a strategy</span>
+                        <span className={styles.process__title}>Search</span>
+                        <span className={styles.process__subtitle}>We analyse your problem and develop a strategy</span>
                     </li>
 
-                    <li class={styles.process__item}>
+                    <li className={styles.process__item}>
                         <Fade bottom duration={1000} delay={500} >
-                            <span class={styles.process__number}>2</span>
+                            <span className={styles.process__number}>2</span>
                      </Fade>
                       
-                        <span class={styles.process__title}>Wireframing</span>
-                        <span class={styles.process__subtitle}>We analyse your problem and develop a strategy</span>
+                        <span className={styles.process__title}>Wireframing</span>
+                        <span className={styles.process__subtitle}>We analyse your problem and develop a strategy</span>
                     </li>
 
-                    <li class={styles.process__item}>
+                    <li className={styles.process__item}>
                         <Fade bottom duration={1000} delay={700} >
-                            <span class={styles.process__number}>3</span>
+                            <span className={styles.process__number}>3</span>
                        </Fade>
                       
-                        <span class={styles.process__title}>Prototyping</span>
-                        <span class={styles.process__subtitle}>We analyse your problem and develop a strategy</span>
+                        <span className={styles.process__title}>Prototyping</span>
+                        <span className={styles.process__subtitle}>We analyse your problem and develop a strategy</span>
                     </li>
 
-                    <li class={styles.process__item}>
+                    <li className={styles.process__item}>
                         <Fade bottom duration={1000} delay={900} >
-                            <span class={styles.process__number}>4</span>
+                            <span className={styles.process__number}>4</span>
                      </Fade>
                       
-                        <span class={styles.process__title}>Optimization</span>
-                        <span class={styles.process__subtitle}>We analyse your problem and develop a strategy</span>
+                        <span className={styles.process__title}>Optimization</span>
+                        <span className={styles.process__subtitle}>We analyse your problem and develop a strategy</span>
                     </li>
                 </ul>
             </div>
