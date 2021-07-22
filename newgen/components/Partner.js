@@ -3,7 +3,7 @@ import Image from 'next/image'
 function Partner() {
     return (
         <div>
-            <div class="slider">
+            <div className="slider">
                 <ul className="bg-gray-500">
                     <li>
                         <Image src="https://i.ibb.co/QcdzgD7/unnamed-removebg-preview.png" height={100} width={100}/>
