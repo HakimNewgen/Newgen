@@ -19,10 +19,10 @@ function About() {
                         Newgen est un fournisseur de services <br /> technologiques basé
                         à Casablanca.
                     </p>
-                    <p className=" flex mb-12">  Notre mission est d'accompagner nos clients dans leurs ambitions de transformation <br /> numérique en leur fournissant à la fois des services commerciaux et technologiques. </p>
+                    <p className=" flex mb-12">  Notre mission est daccompagner nos clients dans leurs ambitions de transformation <br /> numérique en leur fournissant à la fois des services commerciaux et technologiques. </p>
 
 
-                    <p className=" flex mb-12"> Nos employés bénéficient d'une culture fondée sur l'innovation et l'engagement.
+                    <p className=" flex mb-12"> Nos employés bénéficient dune culture fondée sur linnovation et lengagement.
                     </p>
                     <button className="flex  border-2 border-blue-900 px-4  py-2 text-blue-900 font-bold  rounded-lg hover:bg-blue-900 hover:text-white hover:border-blue-900">Voir Plus
                       <ChevronRightIcon className="w-5 ml-3 mt-1"/>
@@ -51,3 +51,4 @@ function About() {
 }
 
 export default About
+
