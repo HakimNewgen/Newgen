@@ -6,7 +6,7 @@ import Latest from "../components/Latest";
 function digital_marketing() {
     return (
         <div  >
-            <Banner source="https://i.ibb.co/hY0zJyR/Png-Item-5400435.png" navbar="blue-900" text="Solutions numériques avec une approche de développement centrée sur l'utilisateur" font={"text-3xl"} size="cover" size="cover" color={"text-blue-900"}/>
+            <Banner source="https://i.ibb.co/hY0zJyR/Png-Item-5400435.png" navbar="blue-900" text="Solutions numériques avec une approche de développement centrée sur l'utilisateur" font={"text-3xl"} size="cover"  color={"text-blue-900"}/>
 
             <h3 className="font-bold text-blue-900 text-4xl  mt-32 mb-24 mx-auto w-9/12 " >Comment pouvons-nous vous aider ?</h3>
 
