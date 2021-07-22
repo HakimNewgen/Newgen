@@ -25,7 +25,7 @@ function Banner({source , size , text , font , navbar , color}) {
 
             <div className="flex ml-44 mt-40 z-40">
                 <button className="bg-white border-2 px-4  py-2 text-blue-900 font-bold mr-5 rounded-lg hover:bg-transparent hover:text-white hover:border-white ">COMMENCER</button>
-                <button className="border-2 border-white px-4  py-2 text-white font-bold  rounded-lg  hover:bg-blue-900 ">VOIR DEMO</button>
+                <button className="border-2 border-white px-4  py-2 text-white font-bold  rounded-lg  hover:bg-blue-900 ">Demander un devis</button>
             </div>
 
             <div className="w-screen grid place-items-center text-5xl mt-14 animate-bounce text-white">
