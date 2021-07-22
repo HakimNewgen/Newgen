@@ -55,15 +55,15 @@ function Contact() {
     };
     return (
         <div>
-            <div class="container mx-auto    border border-blue-900 rounded-lg bg-white">
-                <div class="p-5 space-y-5 shadow-xl">
-                    <h4 class="text-center text-3xl">Contacter Nous</h4>
+            <div className="container mx-auto    border border-blue-900 rounded-lg bg-white">
+                <div className="p-5 space-y-5 shadow-xl">
+                    <h4 className="text-center text-3xl">Contacter Nous</h4>
 
                     <form onSubmit={handleSubmit} id="myForm">
-                        <div class="grid grid-cols-2 gap-5">
+                        <div className="grid grid-cols-2 gap-5">
                             <input
                                 type="text"
-                                class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-blue-900"
+                                className="border border-gray-500 px-4 py-2 focus:outline-none focus:border-blue-900"
                                 placeholder="First Name"
                                 id="firstname"
                                 name="firstname"
@@ -73,7 +73,7 @@ function Contact() {
                             />
                             <input
                                 type="text"
-                                class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-blue-900"
+                                className="border border-gray-500 px-4 py-2 focus:outline-none focus:border-blue-900"
                                 placeholder="Last Name"
                                 id="secondname"
                                 name="secondname"
@@ -83,7 +83,7 @@ function Contact() {
                             />
                             <input
                                 type="email"
-                                class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-blue-900 col-span-2"
+                                className="border border-gray-500 px-4 py-2 focus:outline-none focus:border-blue-900 col-span-2"
                                 placeholder="Email"
                                 id="email"
                                 name="email"
@@ -93,7 +93,7 @@ function Contact() {
                             />
                             <input
                                 type="tel"
-                                class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-blue-900 col-span-2"
+                                className="border border-gray-500 px-4 py-2 focus:outline-none focus:border-blue-900 col-span-2"
                                 placeholder="Phone"
                                 id="phone"
                                 name="phone"
@@ -104,7 +104,7 @@ function Contact() {
                             <textarea
                                 cols="10"
                                 rows="5"
-                                class="border border-gray-500 px-4 py-2 focus:outline-none focus:border-blue-900 col-span-2"
+                                className="border border-gray-500 px-4 py-2 focus:outline-none focus:border-blue-900 col-span-2"
                                 placeholder="Write your message..."
                                  id="message"
                                  name="message"
@@ -113,7 +113,7 @@ function Contact() {
                         </div>
                        
                         <button
-                            className="focus:outline-none mt-5 cursor-pointer bg-blue-900 px-4 py-2 text-white font-bold w-full"
+                            classNameName="focus:outline-none mt-5 cursor-pointer bg-blue-900 px-4 py-2 text-white font-bold w-full"
                             type="submit"
                             onClick={handleSubmit}
                         //   onClick={alert("Commande Envoyer , Merci pour votre Visite")}
